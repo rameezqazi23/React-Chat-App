@@ -11,7 +11,6 @@ const MessageForm = (props) => {
 
         isTyping(props, chatId);
     };
-
     const handleSubmit = (event) => {
         event.preventDefault();
 
